@@ -1,0 +1,76 @@
+
+body{
+  background-color: #66cdaa;
+  opacity: 0.7;}
+
+h1{
+  font-style: italic;
+  color: white;
+  font-size: 20px;}
+
+#top{
+   color:red;}
+
+   @font-face {
+    font-family: 'MyFont';
+    src: url('./Artifika-Regular.ttf');}
+
+   h2{
+      font-family:'MyFont';}
+
+  .one{
+    border-style: solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 175px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;}
+
+   .two{
+    -moz-box-shadow: -10px -10px #777777;
+    -webkit-box-shadow: -10px -10px #777777;
+    box-shadow: -10px -10px #777777;
+    height: 200px;
+    width: 175px;
+    }
+
+  .one{
+display: inline-block;
+float:left;
+margin: 20px;
+padding: 0px;
+}
+.two{
+display: inline-block;
+float:left;
+margin: 20px;
+padding: 0px;
+}
+.three{
+display: inline-block;
+float:left;
+margin:20px;
+padding: 0px;
+}
+
+#submit{
+  color: green;
+  background-color: white;
+  font-style: italic;
+  }
+
+li{
+  width: 200px;
+  height: 50px;
+  list-style: none;
+  display: inline-block;
+}
+
+li:hover{
+  opacity: 0.25;
+}
+
+.background{
+  background-color: green;
+  color: white;
+}
